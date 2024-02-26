@@ -8,6 +8,6 @@ How to install sra in ubuntu and run fastq-dump
 6. For convenience (and to show you where the binaries are) append the path to the binaries to your PATH environment variable using this command `export PATH=$PATH:$PWD/sratoolkit.3.0.10-ubuntu64/bin`  "check version"
 7. Verify that the binaries will be found by the shell using this comand `which fastq-dump`
 8. Run fastq-dump to download and split the file using this command `fastq-dump --gzip --skip-technical --readids --read-filter pass --dumpbase --split-3 --clip SRR8933535`
-9. You can use this command to first download the SRA file first `prefetch SRR8933535'
-10. Now split it using fastq-dump using this command `fastq-dump SRR8933535'
+9. You can use this command to first download the SRA file first `prefetch SRR8933535`
+10. Now split it using fastq-dump using this command `fastq-dump SRR8933535`
 11. 
